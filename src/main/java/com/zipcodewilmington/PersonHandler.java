@@ -67,8 +67,8 @@ public class PersonHandler {
     public String forEachLoop() {
         String result = "";
 
-        for(Person s: personArray) {
-            result += s;
+        for(Person currentPerson: personArray) {
+            result += currentPerson;
         }
 
         // identify array's type
